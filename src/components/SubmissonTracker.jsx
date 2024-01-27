@@ -10,19 +10,21 @@ const SubmissonTracker = (props) => {
       <span className='font-base'>submissions in the last year</span>
 
       </div>
-      <div className=' w-fit flex flex-col  flex-wrap h-28 '>
+      <div className='scrollbar-hide overflow-hidden overflow-x-scroll'>
+<div className='flex flex-row items-center scroll-smooth w-[900px] lg:w-full  justify-evenly'>
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
         {
           props.days.map((d, ind)=>(
             
             <div key={ind}>
 
-<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-neutral-200 border-neutral-200 ': 
+<div className={`h-3 w-3 rounded-sm border   shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
       d === 1 ? 'bg-green-200  border-green-200': 
       d === 2 ? 'bg-green-300  border-green-200': 
       d === 3 ? 'bg-green-400 border-green-300': 
       d === 4 ? 'bg-green-500  border-green-400': 
       d === 5 ? 'bg-green-600  border-green-500': 
-      d === 6 ? 'bg-green-700  border-green-600':'bg-green-800 border-green-700 ' 
+      'bg-[#008024]  border-green-600' 
       
       } m-[1px]`}>
   
@@ -32,7 +34,361 @@ const SubmissonTracker = (props) => {
           ))
         }
       </div>
-    </div>
+     
+     
+
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
+        {
+          props.days.map((d, ind)=>(
+            
+            <div key={ind}>
+
+<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
+      d === 1 ? 'bg-green-200  border-green-200': 
+      d === 2 ? 'bg-green-300  border-green-200': 
+      d === 3 ? 'bg-green-400 border-green-300': 
+      d === 4 ? 'bg-green-500  border-green-400': 
+      d === 5 ? 'bg-green-600  border-green-500': 
+      'bg-[#008024]  border-green-600' 
+      
+      } m-[1px]`}>
+  
+      </div>
+            </div>
+            
+          ))
+        }
+      </div>
+    
+
+
+
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
+        {
+          props.days.map((d, ind)=>(
+            
+            <div key={ind}>
+
+<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
+      d === 1 ? 'bg-green-200  border-green-200': 
+      d === 2 ? 'bg-green-300  border-green-200': 
+      d === 3 ? 'bg-green-400 border-green-300': 
+      d === 4 ? 'bg-green-500  border-green-400': 
+      d === 5 ? 'bg-green-600  border-green-500': 
+      'bg-[#008024]  border-green-600' 
+      
+      } m-[1px]`}>
+  
+      </div>
+            </div>
+            
+          ))
+        }
+      </div>
+    
+
+
+
+
+
+
+
+
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
+        {
+          props.days.map((d, ind)=>(
+            
+            <div key={ind}>
+
+<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
+      d === 1 ? 'bg-green-200  border-green-200': 
+      d === 2 ? 'bg-green-300  border-green-200': 
+      d === 3 ? 'bg-green-400 border-green-300': 
+      d === 4 ? 'bg-green-500  border-green-400': 
+      d === 5 ? 'bg-green-600  border-green-500': 
+      'bg-[#008024]  border-green-600' 
+      
+      } m-[1px]`}>
+  
+      </div>
+            </div>
+            
+          ))
+        }
+      </div>
+    
+
+
+
+
+
+
+
+
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
+        {
+          props.days.map((d, ind)=>(
+            
+            <div key={ind}>
+
+<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
+      d === 1 ? 'bg-green-200  border-green-200': 
+      d === 2 ? 'bg-green-300  border-green-200': 
+      d === 3 ? 'bg-green-400 border-green-300': 
+      d === 4 ? 'bg-green-500  border-green-400': 
+      d === 5 ? 'bg-green-600  border-green-500': 
+      'bg-[#008024]  border-green-600' 
+      
+      } m-[1px]`}>
+  
+      </div>
+            </div>
+            
+          ))
+        }
+      </div>
+    
+
+
+
+
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
+        {
+          props.days.map((d, ind)=>(
+            
+            <div key={ind}>
+
+<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
+      d === 1 ? 'bg-green-200  border-green-200': 
+      d === 2 ? 'bg-green-300  border-green-200': 
+      d === 3 ? 'bg-green-400 border-green-300': 
+      d === 4 ? 'bg-green-500  border-green-400': 
+      d === 5 ? 'bg-green-600  border-green-500': 
+      'bg-[#008024]  border-green-600' 
+      
+      } m-[1px]`}>
+  
+      </div>
+            </div>
+            
+          ))
+        }
+      </div>
+    
+
+
+
+
+
+
+
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
+        {
+          props.days.map((d, ind)=>(
+            
+            <div key={ind}>
+
+<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
+      d === 1 ? 'bg-green-200  border-green-200': 
+      d === 2 ? 'bg-green-300  border-green-200': 
+      d === 3 ? 'bg-green-400 border-green-300': 
+      d === 4 ? 'bg-green-500  border-green-400': 
+      d === 5 ? 'bg-green-600  border-green-500': 
+      'bg-[#008024]  border-green-600' 
+      
+      } m-[1px]`}>
+  
+      </div>
+            </div>
+            
+          ))
+        }
+      </div>
+    
+
+
+
+
+
+
+
+
+
+
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
+        {
+          props.days.map((d, ind)=>(
+            
+            <div key={ind}>
+
+<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
+      d === 1 ? 'bg-green-200  border-green-200': 
+      d === 2 ? 'bg-green-300  border-green-200': 
+      d === 3 ? 'bg-green-400 border-green-300': 
+      d === 4 ? 'bg-green-500  border-green-400': 
+      d === 5 ? 'bg-green-600  border-green-500': 
+      'bg-[#008024]  border-green-600' 
+      
+      } m-[1px]`}>
+  
+      </div>
+            </div>
+            
+          ))
+        }
+      </div>
+    
+
+
+
+
+
+
+
+
+
+
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
+        {
+          props.days.map((d, ind)=>(
+            
+            <div key={ind}>
+
+<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
+      d === 1 ? 'bg-green-200  border-green-200': 
+      d === 2 ? 'bg-green-300  border-green-200': 
+      d === 3 ? 'bg-green-400 border-green-300': 
+      d === 4 ? 'bg-green-500  border-green-400': 
+      d === 5 ? 'bg-green-600  border-green-500': 
+      'bg-[#008024]  border-green-600' 
+      
+      } m-[1px]`}>
+  
+      </div>
+            </div>
+            
+          ))
+        }
+      </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
+        {
+          props.days.map((d, ind)=>(
+            
+            <div key={ind}>
+
+<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
+      d === 1 ? 'bg-green-200  border-green-200': 
+      d === 2 ? 'bg-green-300  border-green-200': 
+      d === 3 ? 'bg-green-400 border-green-300': 
+      d === 4 ? 'bg-green-500  border-green-400': 
+      d === 5 ? 'bg-green-600  border-green-500': 
+      'bg-[#008024]  border-green-600' 
+      
+      } m-[1px]`}>
+  
+      </div>
+            </div>
+            
+          ))
+        }
+      </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
+        {
+          props.days.map((d, ind)=>(
+            
+            <div key={ind}>
+
+<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
+      d === 1 ? 'bg-green-200  border-green-200': 
+      d === 2 ? 'bg-green-300  border-green-200': 
+      d === 3 ? 'bg-green-400 border-green-300': 
+      d === 4 ? 'bg-green-500  border-green-400': 
+      d === 5 ? 'bg-green-600  border-green-500': 
+      'bg-[#008024]  border-green-600' 
+      
+      } m-[1px]`}>
+  
+      </div>
+            </div>
+            
+          ))
+        }
+      </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+      <div className=' w-fit flex flex-col  flex-wrap gap-[1.2px]  h-28 '>
+        {
+          props.days.map((d, ind)=>(
+            
+            <div key={ind}>
+
+<div className={`h-3 w-3 rounded-sm border  shadow-sm ${d === 0 ? 'bg-[#F5F5F5] border-[#F5F5F5] ': 
+      d === 1 ? 'bg-green-200  border-green-200': 
+      d === 2 ? 'bg-green-300  border-green-200': 
+      d === 3 ? 'bg-green-400 border-green-300': 
+      d === 4 ? 'bg-green-500  border-green-400': 
+      d === 5 ? 'bg-green-600  border-green-500': 
+      'bg-[#008024]  border-green-600' 
+      
+      } m-[1px]`}>
+  
+      </div>
+            </div>
+            
+          ))
+        }
+      </div>
+      </div>
+
+
+</div>
+    
+
+
+
+
+
+     </div>
   )
 }
 

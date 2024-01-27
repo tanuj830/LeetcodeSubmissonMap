@@ -5,7 +5,7 @@ import SubmissonTracker from './components/SubmissonTracker';
 import React,{useState} from 'react';
 
 function App() {
-  var inital = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+  var inital = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
   const [days, setDays] = useState(inital)
   
   return (
